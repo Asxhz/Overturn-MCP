@@ -9,6 +9,7 @@ export function createServer(): MCPServer {
     version: "1.0.0",
     description:
       "MCP server for denial PDF extraction, denial code interpretation, appeal draft generation, and the Overturn dashboard widget for Claude/Manufact.",
+    host: "0.0.0.0",
   });
 
   registerServerHandlers(server);

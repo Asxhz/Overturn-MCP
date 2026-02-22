@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "cd Overturn && npm ci && npx mcp-use build",
-    "start": "cd Overturn && npx mcp-use start",
+    "start": "cd Overturn && node dist/index.js",
     "build:root": "tsc",
     "start:root": "node dist/index.js",
     "dev": "cd Overturn && npx mcp-use dev",
